@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Shop fresh groceries, daily essentials, and more with quick doorstep delivery.">
+    <title>Blinkit | Groceries in minutes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Blinkit home">blink<span>it</span></a>
+
+      <div class="delivery-info">
+        <strong>Delivery in 17 minutes</strong>
+        <span>Sector 18, Noida, Uttar Pradesh <span aria-hidden="true">⌄</span></span>
+      </div>
+
+      <form class="search" role="search">
+        <span class="search-icon" aria-hidden="true"></span>
+        <input type="search" aria-label="Search products" placeholder='Search "milk"'>
+      </form>
+
+      <button class="login-button" type="button">Login</button>
+      <button class="cart-button" type="button"><span class="cart-icon" aria-hidden="true">▱</span> My Cart</button>
+    </header>
+
+    <main id="home" class="page-content">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">Stock up on daily essentials</h1>
+          <p>Get farm-fresh goodness &amp; a range of exotic fruits, vegetables, eggs &amp; more.</p>
+          <a class="shop-button" href="#categories">Shop now <span aria-hidden="true">→</span></a>
+        </div>
+        <img class="hero-image" src="assets/hero-produce.jpg" alt="A colorful spread of fresh vegetables and greens">
+      </section>
+
+      <section class="promotions" aria-label="Featured shopping categories">
+        <article class="promo-card promo-pharmacy">
+          <div class="promo-copy">
+            <h2>Pharmacy at<br>your doorstep!</h2>
+            <p>Cold medicines, first-aid &amp; more</p>
+            <a href="#categories" class="order-button">Order now <span aria-hidden="true">→</span></a>
+          </div>
+          <img src="assets/pharmacy.jpg" alt="Pharmacy essentials" loading="lazy">
+        </article>
+        <article class="promo-card promo-pet">
+          <div class="promo-copy">
+            <h2>Pet care supplies<br>at your door</h2>
+            <p>Food, treats, toys &amp; more</p>
+            <a href="#categories" class="order-button">Order now <span aria-hidden="true">→</span></a>
+          </div>
+          <img src="assets/pet-care.jpg" alt="A happy dog ready for a walk" loading="lazy">
+        </article>
+        <article class="promo-card promo-baby">
+          <div class="promo-copy">
+            <h2>No time for<br>a diaper run?</h2>
+            <p>Everyday baby essentials</p>
+            <a href="#categories" class="order-button">Order now <span aria-hidden="true">→</span></a>
+          </div>
+          <img src="assets/baby-care.jpg" alt="Soft baby clothing and care essentials" loading="lazy">
+        </article>
+      </section>
+
+      <section id="categories" class="category-section" aria-labelledby="category-title">
+        <h2 id="category-title" class="visually-hidden">Shop by category</h2>
+        <div class="category-grid" id="all-categories">
+          <a class="category-item" href="#categories"><span class="category-picture"><img src="assets/snacks.jpg" alt="" loading="lazy"></span><span>Paan<br>Corner</span></a>
+          <a class="category-item" href="#categories"><span class="category-picture"><img src="assets/dairy.jpg" alt="" loading="lazy"></span><span>Dairy, Bread<br>&amp; Eggs</span></a>
+          <a class="category-item" href="#categories"><span class="category-picture"><img src="assets/vegetables.jpg" alt="" loading="lazy"></span><span>Fruits &amp;<br>Vegetables</span></a>
+          <a class="category-item" href="#categories"><span class="category-picture"><img src="assets/drinks.jpg" alt="" loading="lazy"></span><span>Cold Drinks<br>&amp; Juices</span></a>
+          <a class="category-item" href="#categories"><span class="category-picture"><img src="assets/snacks.jpg" alt="" loading="lazy"></span><span>Snacks &amp;<br>Munchies</span></a>
+          <a class="category-item" href="#categories"><span class="category-picture"><img src="assets/bakery.jpg" alt="" loading="lazy"></span><span>Breakfast &amp;<br>Instant Food</span></a>
+          <a class="category-item" href="#categories"><span class="category-picture"><img src="assets/bakery.jpg" alt="" loading="lazy"></span><span>Sweet<br>Tooth</span></a>
+          <a class="category-item" href="#categories"><span class="category-picture"><img src="assets/bakery.jpg" alt="" loading="lazy"></span><span>Bakery &amp;<br>Biscuits</span></a>
+          <a class="category-item" href="#categories"><span class="category-picture"><img src="assets/drinks.jpg" alt="" loading="lazy"></span><span>Tea, Coffee &amp;<br>Milk Drinks</span></a>
+          <a class="category-item" href="#categories"><span class="category-picture"><img src="assets/grains.jpg" alt="" loading="lazy"></span><span>Atta, Rice<br>&amp; Dal</span></a>
+          <a class="category-item" href="#categories"><span class="category-picture"><img src="assets/pharmacy.jpg" alt="" loading="lazy"></span><span>Health &amp;<br>Pharmacy</span></a>
+          <a class="category-item" href="#categories"><span class="category-picture"><img src="assets/pet-care.jpg" alt="" loading="lazy"></span><span>Pet Care<br>Supplies</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-brand-column">
+          <a class="brand footer-brand" href="#home" aria-label="Blinkit home">blink<span>it</span></a>
+          <p class="footer-tagline">Groceries in minutes.<br>Life, a little easier.</p>
+          <div class="app-links">
+            <a href="#app" class="app-badge"><span aria-hidden="true">▶</span><span><small>GET IT ON</small>Google Play</span></a>
+            <a href="#app" class="app-badge"><span aria-hidden="true">◉</span><span><small>Download on the</small>App Store</span></a>
+          </div>
+        </div>
+        <nav class="footer-column" aria-label="Useful links">
+          <h2>Useful links</h2>
+          <a href="#about">About</a><a href="#careers">Careers</a><a href="#press">Press</a><a href="#blog">Blog</a><a href="#help">Help &amp; support</a>
+        </nav>
+        <nav class="footer-column" aria-label="Top categories">
+          <h2>Top categories</h2>
+          <a href="#categories">Vegetables &amp; fruits</a><a href="#categories">Dairy &amp; breakfast</a><a href="#categories">Snacks &amp; drinks</a><a href="#categories">Household essentials</a><a href="#categories">Beauty &amp; personal care</a>
+        </nav>
+        <div class="footer-column social-column">
+          <h2>Follow us</h2>
+          <div class="social-links">
+            <a href="#instagram" aria-label="Instagram">ig</a><a href="#facebook" aria-label="Facebook">f</a><a href="#x" aria-label="X">𝕏</a><a href="#linkedin" aria-label="LinkedIn">in</a>
+          </div>
+          <p>Fresh finds and little moments, every day.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Blink Commerce Private Limited</span>
+        <span>Made for everyday moments <span class="heart" aria-hidden="true">♥</span></span>
+      </div>
+    </footer>
+  </body>
+</html>
